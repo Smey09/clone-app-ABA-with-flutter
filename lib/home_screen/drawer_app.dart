@@ -104,19 +104,19 @@ class _drawer_appState extends State<drawer_app> {
                 Navigator.pop(context);
               },
             ),
-            ListTile(
-              leading: const Icon(
-                Icons.location_on,
-                color: Colors.white,
-              ),
-              title: const Text(
-                'ABA PAY Places',
-                style: TextStyle(color: Colors.white),
-              ),
-              onTap: () {
-                Navigator.pop(context);
-              },
-            ),
+            // ListTile(
+            //   leading: const Icon(
+            //     Icons.location_on,
+            //     color: Colors.white,
+            //   ),
+            //   title: const Text(
+            //     'ABA PAY Places',
+            //     style: TextStyle(color: Colors.white),
+            //   ),
+            //   onTap: () {
+            //     Navigator.pop(context);
+            //   },
+            // ),
             ListTile(
               leading: const Icon(
                 Icons.monetization_on,
